@@ -1,0 +1,11 @@
+node_modules/
+.next/
+/.idea/
+build/
+.eslintcache
+coverage
+.vscode
+npm-debug.log
+yarn-error.log
+.DS_Store
+package-lock.json
