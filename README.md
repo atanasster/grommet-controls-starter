@@ -2,7 +2,7 @@
 
 This repo contains a sample grommet/grommet-controls app 
 
-![sample app](./images/sample-app.jpg?raw=true "Sample app")
+![sample app](https://github.com/atanasster/grommet-controls-starter/blob/master/images/sample-app.jpg?raw=true "Sample app")
 1. start: `$ npm run start`
 2. build: `$npm run build`
 3. analyze `$ npm run build & npm run analyze`
@@ -27,6 +27,6 @@ So what are the new and better ways to reduce the size of your bundles and still
 
 # Webpack 4 with CRA
 The Webpack 4 release expands on its tree-shaking capabilities
-[sample project...](./webpack-4)
+[sample project...](https://github.com/atanasster/grommet-controls-starter/tree/master/webpack-4)
 
 # transform-imports
