@@ -8,18 +8,23 @@ All of grommet, grommet-icons and grommet-controls do have "sideEffects" turned 
 1. "module": "es6/index.js" - is the es6 version of the libraries
 2. "main": "index.js" - is the Commonjs version of the libraries
   
-By default, your react projects will use the es6 folders whenever you import ie:
+By default, your react projects will use the es6 folders whenever you import something from 'grommet':
 
-`import { Box } from 'grommet';` 
+Lets use an example importing the *grommet* theme:
 
-will translate into the following import: 
+1. if you have:
+`import { grommet } from 'grommet';` 
 
-`import { Box } from 'grommet/es6/components/Box';`
+    will translate into the following import: 
 
+    `import { grommet } from 'grommet/es6/index.js';`
 
-so if you do the following import 
+    which will import the theme from the 
+    `grommet/es6/themes/grommet.js` file
 
-`import { grommet } from 'grommet/themes';`
+2. if instead you have the following import 
 
-the *grommet* theme and all its dependecies will be imported from the `commonjs` folders and will result in duplicated files bundled into your projects.
+    `import { grommet } from 'grommet/themes';`
+
+    the *grommet* theme and all its dependecies will be imported from the `grommet/themes/grommet.js` file and the theme and all dependecies being potentially duplicated in your bundle. This will increase your bundle sizes, but also can result in some difficult to track issues with duplicated context providers. 
 
