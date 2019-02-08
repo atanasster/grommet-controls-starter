@@ -13,7 +13,16 @@ We often use named imports to import a few functions from javascript files that 
 
 Tree shaking is called the process of removing the unusued code from your bundles.
 
-Webpack 2 had some support for basic tree shaking, where it would recognize if a named import is not used in the current file. However this is now covered anyway by your linting tools anyway.
+Webpack 2 had some support for basic tree shaking, where it would recognize if a named import is not used in the current file. However this is now covered by your linting tools anyway.
+
+The commonly recommended way was(and usually still is) to import each component from their respective folder instead of a generic `index.js` file. For example 
+```
+import { Grommet } from 'grommet/components/Grommet';
+import { Box } from 'grommet/components/Box';
+```
+
+But this will lead to long and confusing import sections in your files. 
+So what are the new and better ways to reduce the size of your bundles and still keep your imports simple and more manageable
 
 
 # Webpack 4 with CRA
