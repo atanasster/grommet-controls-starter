@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Grommet, Anchor, Grid, Text, Carousel, Image, Heading, ResponsiveContext, Paragraph, grommet } from 'grommet';
-import { Favorite, Home, LineChart, BarChart, Reactjs, Dashboard, UserSettings, Inbox, Android, Apple, Analytics } from 'grommet-icons';
+import { Favorite, Home, LineChart, BarChart, Reactjs, Dashboard, UserSettings, Inbox, Android, Apple, ClosedCaption } from 'grommet-icons';
 import { Avatar, Header, Sidebar, Tag, VerticalMenu, Card, IconButton } from 'grommet-controls';
 
 const Section = ({ children, name }) => (
@@ -34,7 +34,7 @@ const services = [
   { name: 'Reactjs', color: 'accent-1', icon: Reactjs },
   { name: 'Android', color: 'accent-2', icon: Android },
   { name: 'iOS', color: 'accent-3', icon: Apple },
-  { name: 'Analysis', color: 'accent-4', icon: Analytics },
+  { name: 'Video', color: 'accent-4', icon: ClosedCaption },
 ];
 
 const App = () => {
