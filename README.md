@@ -1,4 +1,11 @@
+# Sample grommet/grommet-controls app
 
+This repo contains a sample grommet/grommet-controls app 
+
+![sample app](./images/sample-app.jpg?raw=true "Sample app")
+1. start: `$ npm run start`
+2. build: `$npm run build`
+3. analyze `$ npm run build & npm run anayze`
 
 # About tree shaking
 We often use named imports to import a few functions from javascript files that have many other exports (for example an index.js file for a library that has many components).
