@@ -4,7 +4,7 @@ The Webpack 4 release expands on its tree-shaking capabilities with a way to pro
 
 All of grommet, grommet-icons and grommet-controls do have "sideEffects" turned off in their respective package.json configuration files, and thus ready for webpack 4 tree-shaking.
 
-**IMPORTANT**: the **grommet/grommet-controls** libraries are installed in two separate folders:
+**IMPORTANT**: the **grommet/grommet-controls/grommet-icons** libraries are installed in two separate folders:
 1. "module": "es6/index.js" - is the es6 version of the libraries
 2. "main": "index.js" - is the Commonjs version of the libraries
   
