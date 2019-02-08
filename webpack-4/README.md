@@ -1,4 +1,4 @@
-#Webpack 4 and Tree shaking
+# Webpack 4 and Tree shaking
 The Webpack 4 release expands on its tree-shaking capabilities with a way to provide hints to the compiler via the "sideEffects" package.json property to denote which files in your project are "pure" and therefore safe to prune if unused.
  Here is the guide on [Webpack 4 tree shaking](https://webpack.js.org/guides/tree-shaking/).
 
