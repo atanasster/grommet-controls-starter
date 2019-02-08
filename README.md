@@ -11,6 +11,6 @@ Webpack 2 had some support for basic tree shaking, where it would recognize if a
 
 #Webpack 4 with CRA
 The Webpack 4 release expands on its tree-shaking capabilities
-[sample project...](./webpack-4/README.md)
+[sample project...](./webpack-4)
 
 #transform-imports
