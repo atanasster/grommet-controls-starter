@@ -25,8 +25,10 @@ But this will lead to long and confusing import sections in your files.
 So what are the new and better ways to reduce the size of your bundles and still keep your imports simple and more manageable
 
 
-# Webpack 4 with CRA
+# webpack 4 with CRA
 The Webpack 4 release expands on its tree-shaking capabilities
 [sample project...](https://github.com/atanasster/grommet-controls-starter/tree/master/webpack-4)
 
-# transform-imports
+# next.js
+next.js version 7 comes with webpack 4 and can use tree-shaking if correctly configured
+[sample project...](https://github.com/atanasster/grommet-controls-starter/tree/master/nextjs)
