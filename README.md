@@ -37,3 +37,7 @@ The Webpack 4 release expands on its tree-shaking capabilities
 # next.js
 next.js version 7 comes with webpack 4 and can use tree-shaking if correctly configured
 [sample project...](/nextjs)
+
+# gatsby
+gatsby version 2 comes with webpack 4 and can use tree-shaking out of the box
+[sample project...](/gatsby)

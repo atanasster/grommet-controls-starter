@@ -1,6 +1,5 @@
-# webpack 4 and tree shaking
-The webpack 4 release expands on its tree-shaking capabilities with a way to provide hints to the compiler via the "sideEffects" package.json property to denote which files in your project are "pure" and therefore safe to prune if unused.
- Here is the guide on [webpack 4 tree shaking](https://webpack.js.org/guides/tree-shaking/).
+# gatsby and tree shaking
+gatsby >2.0 comes bundled with webpack 4. The webpack 4 release expands on its tree-shaking capabilities with a way to provide hints to the compiler via the "sideEffects" package.json property to denote which files in your project are "pure" and therefore safe to prune if unused. Here is the guide on webpack 4 tree shaking.
 
 All of grommet, grommet-icons and grommet-controls do have "sideEffects" turned off in their respective package.json configuration files, and thus ready for webpack 4 tree-shaking.
 

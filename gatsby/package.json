@@ -1,0 +1,32 @@
+{
+  "name": "grommet-starter",
+  "version": "0.1.0",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "gatsby": "^2.0.118",
+    "gatsby-plugin-styled-components": "^3.0.5",
+    "grommet": "^2.4.0",
+    "grommet-controls": "^1.1.6",
+    "grommet-icons": "^4.2.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "source-map-explorer": "^1.6.0",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "analyze": "npm run build && source-map-explorer public/4*.*",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

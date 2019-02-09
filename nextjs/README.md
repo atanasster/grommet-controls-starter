@@ -1,4 +1,6 @@
-# next.js and Tree shaking
+# next.js and tree shaking
+
+next.js >7 comes bundled with webpack 4. 
 
 - enable es6 modules
 
