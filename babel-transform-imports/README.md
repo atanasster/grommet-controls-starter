@@ -7,7 +7,7 @@ If you are using webpack version < 4, or any other environment that does not sup
 
 2. configure your .babelrc file: 
 
-```jsx harmony
+```
 ...
   "plugins": [
     ["transform-object-rest-spread"],
