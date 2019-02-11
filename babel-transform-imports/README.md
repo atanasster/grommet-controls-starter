@@ -8,9 +8,7 @@ If you are using webpack version < 4, or any other environment that does not sup
 2. configure your .babelrc file: 
 
 ```
-...
   "plugins": [
-    ["transform-object-rest-spread"],
     ["transform-imports", {
       "grommet-controls": {
         "transform": "grommet-controls/es6/components/${member}",
@@ -26,6 +24,31 @@ If you are using webpack version < 4, or any other environment that does not sup
         "transform": "grommet-controls/es6/themes/${member}",
         "preventFullImport": false
       },
+      "grommet": {
+        "transform": "grommet/es6/components/${member}",
+        "preventFullImport": false,
+        "skipDefaultConversion": true
+      },
+      "grommet/contexts": {
+        "transform": "grommet/es6/contexts/${member}",
+        "preventFullImport": true,
+        "skipDefaultConversion": true
+      },
+      "grommet/themes": {
+        "transform": "grommet/es6/themes/${member}",
+        "preventFullImport": false,
+        "skipDefaultConversion": true
+      },
+      "grommet/components/hocs": {
+        "transform": "grommet/es6/components/hocs",
+        "preventFullImport": true,
+        "skipDefaultConversion": true
+      },
+      "grommet/utils": {
+        "transform": "grommet/es6/utils",
+        "preventFullImport": true,
+        "skipDefaultConversion": true
+      },      
       "grommet-icons/contexts": {
         "transform": "grommet-icons/es6/contexts/${member}",
         "preventFullImport": true,
@@ -38,5 +61,4 @@ If you are using webpack version < 4, or any other environment that does not sup
       }
     }]
   ]
-...
 ```
