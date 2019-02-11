@@ -32,12 +32,20 @@ So what are the new and better ways to reduce the size of your bundles and still
 
 # webpack 4 with CRA
 The Webpack 4 release expands on its tree-shaking capabilities
+
 [sample project...](/webpack-4)
 
 # next.js
 next.js version 7 comes with webpack 4 and can use tree-shaking if correctly configured
+
 [sample project...](/nextjs)
 
 # gatsby
 gatsby version 2 comes with webpack 4 and can use tree-shaking out of the box
+
 [sample project...](/gatsby)
+
+# webpack < 4 with no tree shaking
+with webpack < 4, you can use some babel plugins, in our example `babel-plugin-transform-imports`
+ 
+[sample project...](/babel-transform-imports)
