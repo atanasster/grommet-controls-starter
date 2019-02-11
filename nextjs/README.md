@@ -1,4 +1,41 @@
-# next.js and tree shaking
+# nextjs
+
+for nextjs projects, you will need to set up styled-components for server-side rendering and es6 modules for the grommet libraries
+
+# setup styled-components
+
+`$ npm install babel-plugin-styled-components`
+
+configure babel:
+ 
+`.babelrc`
+```
+{
+  "presets": ["next/babel"],
+  "plugins": [["styled-components", { "ssr": true }]]
+}
+
+```
+
+# setup es6 modules
+
+`$ npm install next-plugin-transpile-modules`
+
+configure webpack:
+
+`next.config.js`
+
+```
+const withTM = require('next-plugin-transpile-modules');
+...
+const initExport = {
+  ...
+  transpileModules: ['grommet-controls', 'grommet', 'grommet-icons']
+};
+
+module.exports = withTM(initExport);
+```
+# tree shaking
 
 next.js >7 comes bundled with webpack 4. 
 

@@ -1,4 +1,19 @@
-# gatsby and tree shaking
+# gatsby
+
+for gatsby projects, you will need to set up styled-components for server-side rendering
+
+# setup
+
+`$ npm install --save gatsby-plugin-styled-components babel-plugin-styled-components`
+
+`gatsby-config.js`
+```
+module.exports = {
+  plugins: [`gatsby-plugin-styled-components`],
+}
+
+```
+# tree shaking
 gatsby >2.0 comes bundled with webpack 4. The webpack 4 release expands on its tree-shaking capabilities with a way to provide hints to the compiler via the "sideEffects" package.json property to denote which files in your project are "pure" and therefore safe to prune if unused. Here is the guide on webpack 4 tree shaking.
 
 All of grommet, grommet-icons and grommet-controls do have "sideEffects" turned off in their respective package.json configuration files, and thus ready for webpack 4 tree-shaking.
