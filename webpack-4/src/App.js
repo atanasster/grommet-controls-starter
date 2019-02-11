@@ -124,7 +124,7 @@ const App = () => {
                     />
                   </Carousel>
                   <Section name='Latest news'>
-                    <Grid columns='medium' gap='medium'>
+                    <Grid columns={{ "count": "fit", size: 'medium' }} gap='medium'>
                       {[0,1].map((item,index) => (
                         <Card key={`blogs_${index}`}>
                           <Anchor href='https://www.imdb.com/title/tt2911666/' style={{ maxWidth: '100%' }}>
