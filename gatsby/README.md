@@ -7,6 +7,7 @@ for gatsby projects, you will need to set up styled-components for server-side r
 `$ npm install --save gatsby-plugin-styled-components babel-plugin-styled-components`
 
 `gatsby-config.js`
+
 ```
 module.exports = {
   plugins: [`gatsby-plugin-styled-components`],
