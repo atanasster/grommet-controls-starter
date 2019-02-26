@@ -6,8 +6,7 @@
     "grommet": "^2.4.0",
     "grommet-controls": "^1.1.6",
     "grommet-icons": "^4.2.0",
-    "next": "^7.0.2",
-    "next-plugin-transpile-modules": "^1.1.0",
+    "next": "^8.0.3",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "styled-components": "^4.1.3"

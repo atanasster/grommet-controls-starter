@@ -1,4 +1,3 @@
-const withTM = require('next-plugin-transpile-modules');
 const withBundleAnalyzer = require('@zeit/next-bundle-analyzer')
 
 const initExport = {
@@ -17,8 +16,6 @@ const initExport = {
   webpack (config) {
     return config
   },
-
-  transpileModules: ['grommet-controls', 'grommet', 'grommet-icons']
 };
 
-module.exports = withBundleAnalyzer(withTM(initExport));
+module.exports = withBundleAnalyzer(initExport);

@@ -20,7 +20,7 @@ configure babel:
 
 ```
 
-# setup es6 modules
+# setup es6 modules for nextjs < 8
 
 `$ npm install next-plugin-transpile-modules`
 
