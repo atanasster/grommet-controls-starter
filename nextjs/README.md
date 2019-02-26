@@ -74,9 +74,10 @@ export default class MyDocument extends Document {
 
 next.js >7 comes bundled with webpack 4. 
 
-
 the **grommet/grommet-controls/grommet-icons** libraries are installed in two separate folders:
+
 1. "module": "es6/index.js" - is the es6 version of the libraries
+
 2. "main": "index.js" - is the Commonjs version of the libraries
 
 in order to use the es6 versions of grommet/grommet-controls, you will need to install a nextjs transpilation plugin: 
