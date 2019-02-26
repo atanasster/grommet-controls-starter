@@ -2,6 +2,8 @@
 
 for nextjs projects, you will need to set up styled-components for server-side rendering and es6 modules for the grommet libraries
 
+**important next.js >= 8.0.3 is required to use grommet version newer than 2.0.0**
+
 # setup styled-components
 
 `$ npm install babel-plugin-styled-components`
